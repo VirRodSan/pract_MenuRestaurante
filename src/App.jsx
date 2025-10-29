@@ -3,7 +3,7 @@ import MenuList from "./MenuList"
 function App() {
 
 
-  return( /* <>{console.log(meals)}</>  */
+  return( 
    
       <MenuList/>
       
