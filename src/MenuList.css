@@ -1,0 +1,24 @@
+.sectionMeals {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 0 20px;
+}
+
+.listMeals {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.fish {
+    color: #2c5aa0;
+    font-size: 2em;
+    margin-bottom: 30px;
+    text-align: center;
+}
