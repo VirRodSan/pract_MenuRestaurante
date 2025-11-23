@@ -1,0 +1,23 @@
+.sectionMeals {
+  padding: 1rem;
+}
+
+.listMeals {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listMeals a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.listMeals a:hover {
+  transform: translateY(-5px);
+}

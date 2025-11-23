@@ -1,0 +1,27 @@
+.main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.main-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.main-content {
+  flex: 1;
+  padding-bottom: 50px;
+}
+
+
+/* Asegurar que el contenido principal tenga suficiente espacio */
+.main-content > * {
+  min-height: 100%;
+}
+
+/* Efectos de transición suave */
+.main-header, .main-footer {
+  transition: all 0.3s ease;
+}

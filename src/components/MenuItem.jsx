@@ -1,4 +1,4 @@
-import "./MenuItem.css"
+import "../styles/MenuItem.css"
 
 export function MenuItem({strMeal,strMealThumb,strMealPrice}){
     return(
@@ -12,4 +12,3 @@ export function MenuItem({strMeal,strMealThumb,strMealPrice}){
         </li>
     )
 }
-
